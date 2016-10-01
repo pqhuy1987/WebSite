@@ -13,7 +13,7 @@
 + (UIActivityIndicatorView *)createSpinView:(UIView *)superView {
     UIActivityIndicatorView *spinView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
     spinView.center = superView.center;
-    spinView.color = [UIColor grayColor];
+    spinView.color = [UIColor blackColor];
     [superView addSubview:spinView];
     return spinView;
 }
