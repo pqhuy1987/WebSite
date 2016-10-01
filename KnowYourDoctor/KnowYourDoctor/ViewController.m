@@ -19,6 +19,7 @@
     UITapGestureRecognizer *singleFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                                                       action:@selector(handleSingleTap:)];
     [self.view addGestureRecognizer:singleFingerTap];
+    [self performSelector:@selector(handleSingleTap:) withObject:nil afterDelay:1];
     
     
 }
