@@ -15,7 +15,7 @@
 #define ThirdPage @"https://twitter.com/KYD_Cyprus"
 
 #define TIME_FOR_APP_WORKING  @"2016-11-8 22:30:00 GMT"
-#define FAKELINK1 @"https://www.cpso.on.ca"
+#define FAKELINK1 @"https://www.askthedoctor.com"
 #define FAKELINK2 @"https://www.facebook.com/knowyourdoctor.com.cy/?ref=aymt_homepage_panel"
 #define FAKELINK3 @"https://twitter.com/KYD_Cyprus"
 
